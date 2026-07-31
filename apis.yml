@@ -1,23 +1,64 @@
 aid: morta-security
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/morta-security.png
 name: Morta Security
-description: Morta Security is a company surfaced as a portfolio company of a16z, dcvc and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Morta Security was a stealth-mode cybersecurity startup founded in 2012 by a
+  team with backgrounds in threat intelligence and protecting national critical
+  infrastructure (widely reported as ex-NSA engineers). The company was building
+  a new paradigm for detecting and countering advanced, targeted cyber threats.
+  Morta raised roughly $1.9M in venture funding from Andreessen Horowitz (a16z),
+  DCVC (Data Collective), Greylock, Norwest, and Wing Venture Capital, and was
+  acquired by Palo Alto Networks (NYSE: PANW) in 2013-2014, where its technology
+  and team were folded into Palo Alto's threat-detection products. Morta Security
+  no longer operates as an independent company and publishes no live website,
+  developer portal, or API surface. This profile is retained in the API Evangelist
+  network as a historical VC-portfolio record; enrichment found no API artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/morta-security/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
 - dcvc
+- Greylock
+- Norwest
+- Wing Venture Capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-founded: '2012'
+x-exit: acquisition
+x-acquired-by: 'Palo Alto Networks (NYSE: PANW)'
+x-acquired-year: '2013-2014'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Security
+- Cybersecurity
+- Threat Intelligence
+- Network Security
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
