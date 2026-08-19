@@ -40,7 +40,7 @@ x-founded: '2012'
 x-exit: acquisition
 x-acquired-by: 'Palo Alto Networks (NYSE: PANW)'
 x-acquired-year: '2013-2014'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
